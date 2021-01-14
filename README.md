@@ -10,6 +10,12 @@ URL Книг:
 
 Админка /admin/ доступна, на всякий случай
 
+Окружение и пакеты:
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+
+
 Запуск тестов:
 python manage.py test
 
