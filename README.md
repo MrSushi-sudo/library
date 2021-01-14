@@ -14,7 +14,7 @@ URL Книг:
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
-
+Либо настроить в пайчарме settings - Python Interpreter
 
 Запуск тестов:
 python manage.py test
