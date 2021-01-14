@@ -30,3 +30,10 @@ venv.bak/
 *.iws /out/
 
 
+/.idea/.gitignore
+/.idea/dbnavigator.xml
+/.idea/library.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
