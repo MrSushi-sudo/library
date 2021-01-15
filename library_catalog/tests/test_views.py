@@ -19,7 +19,6 @@ class BookViewTest(APITestCase):
         params = {'name': 'Тестовая Книга 1', 'description': 'Тестовое описание 1'}
         response = self.client.post(self.url, params)
         self.assertEqual(response.status_code, 201)
-        return print(response.status_code)
 
 
 class AuthorViewTest(APITestCase):
@@ -38,4 +37,3 @@ class AuthorViewTest(APITestCase):
         params = {'name': 'Тестовый Автор 1'}
         response = self.client.post(self.url, params)
         self.assertEqual(response.status_code, 201)
-        return print(response.status_code)
